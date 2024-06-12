@@ -69,14 +69,14 @@ radius = 17.0735
 script = ExtResource("1_dt4b2")
 
 [node name="anim" type="AnimatedSprite2D" parent="."]
-position = Vector2(-7.62939e-06, -3.8147e-06)
+position = Vector2(-1, 1)
 scale = Vector2(0.333906, 0.3)
 sprite_frames = SubResource("SpriteFrames_bi3w8")
-animation = &"move_down"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1.19209e-07, 4)
+position = Vector2(-1, 5)
 rotation = -0.649034
 skew = -0.260054
 shape = SubResource("CircleShape2D_d2t1e")
